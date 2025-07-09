@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.task {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.task.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions button {
+  width: auto;
+  margin-right: 5px;
+}
